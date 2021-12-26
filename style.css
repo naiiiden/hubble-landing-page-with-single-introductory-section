@@ -98,7 +98,7 @@ button:hover {
     }
 
     .logo {
-        width: 30%;
+        width: 45%;
         padding: 3rem 9rem;
     }
 
@@ -130,5 +130,11 @@ button:hover {
     footer {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        width: 30%;
     }
 }
